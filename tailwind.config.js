@@ -13,6 +13,9 @@ export default {
     },
     fontFamily: {
       'Poppins': ['Poppins', 'sans-serif',]
+    },
+    backgroundImage: {
+      'frame': "url(./src/assets/frame.jpg)"
     }
   },
   plugins: [],

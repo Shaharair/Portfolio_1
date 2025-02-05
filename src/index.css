@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.slick-dots li button {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: none;
+    color: transparent;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
