@@ -20,7 +20,6 @@ const Home = () => {
                             <ReactTyped
                                 strings={[
                                     "I'm Front-End Web Developer.",
-                                    "I'm Web Designer.",
                                 ]}
                                 typeSpeed={500}
                                 backSpeed={500}

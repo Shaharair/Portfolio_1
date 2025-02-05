@@ -21,7 +21,7 @@ const Header = () => {
                                     <div className="lg:w-[150px] w-[120px] lg:py-[15px] py-[8px] absolute top-0 left-[-200px] rounded-[10px] group-hover:left-0 group-hover:bg-[#FFCC2E] duration-700 ease-in-out">
                                         <li className="font-Poppins font-semibold lg:text-[18px] text-[14px] text-[white] text-center uppercase">Home</li>
                                     </div>
-                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px] ${activeList == "active" ? "" : "bg-[#FFCC2E]"}`}><FaHome /></span>
+                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px] ${activeList ==  "active" ? "" : "bg-[#FFCC2E]"}`}><FaHome /></span>
                                 </div>
                             </Link>
                             <Link to="/about">
@@ -29,7 +29,7 @@ const Header = () => {
                                     <div className="lg:w-[150px] w-[120px] lg:py-[15px] py-2 absolute left-[-200px] rounded-[10px] group-hover:left-0 group-hover:bg-[#FFCC2E] duration-700 ease-in-out">
                                         <li className="font-Poppins font-semibold lg:text-[18px] text-[14px] text-[white] text-center uppercase">About</li>
                                     </div>
-                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px]  ${activeList == "active" ? "" : "bg-[#FFCC2E]"}`}><FaUser /></span>
+                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px]  ${activeList ==  "active" ? "" : "bg-[#FFCC2E]"}`}><FaUser /></span>
                                 </div>
                             </Link>
                             <Link to="/portfolio">
@@ -37,7 +37,7 @@ const Header = () => {
                                     <div className="lg:w-[150px] w-[120px] lg:py-[15px] py-2 absolute left-[-200px] rounded-[10px] group-hover:left-0 group-hover:bg-[#FFCC2E] duration-700 ease-in-out">
                                         <li className="font-Poppins font-semibold lg:text-[18px] text-[14px] text-[white] text-center uppercase">Portfolio</li>
                                     </div>
-                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px]  pt-[16px] ${activeList == "active" ? "" : "bg-[#FFCC2E]"}`}><FaBriefcase /></span>
+                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px]  pt-[16px] ${activeList ==  "active" ? "" : "bg-[#FFCC2E]"}`}><FaBriefcase /></span>
                                 </div>
                             </Link>
                             <Link to="/contact">
@@ -45,7 +45,7 @@ const Header = () => {
                                     <div className="lg:w-[150px] w-[120px] lg:py-[15px] py-2 absolute left-[-200px] rounded-[10px] group-hover:left-0 group-hover:bg-[#FFCC2E] duration-700 ease-in-out">
                                         <li className="font-Poppins font-semibold lg:text-[18px] text-[14px] text-[white] text-center uppercase">Contact</li>
                                     </div>
-                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px] ${activeList == "active" ? "" : "bg-[#FFCC2E]"}`}><FaEnvelopeOpen /></span>
+                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px] ${activeList ==  "active" ? "" : "bg-[#FFCC2E]"}`}><FaEnvelopeOpen /></span>
                                 </div>
                             </Link>
                             <Link to="/blog">
@@ -53,14 +53,14 @@ const Header = () => {
                                     <div className="lg:w-[150px] w-[120px] lg:py-[15px] py-2 absolute left-[-200px] rounded-[10px] group-hover:left-0 group-hover:bg-[#FFCC2E] duration-700 ease-in-out">
                                         <li className="font-Poppins font-semibold lg:text-[18px] text-[14px] text-[white] text-center uppercase">Blog</li>
                                     </div>
-                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px] ${activeList == "active" ? "" : "bg-[#FFCC2E]"}`}><FaComments /></span>
+                                    <span className={`font-Poppins font-semibold lg:text-[24px] text-[18px] text-[white] lg:w-[60px] w-[50px] lg:h-[60px] h-[50px] bg-[#767676] rounded-full lg:ms-[200px] ms-[170px] lg:pl-[18px] pl-[16px] lg:pt-[17px] pt-[16px] ${activeList ==  "active" ? "" : "bg-[#FFCC2E]"}`}><FaComments /></span>
                                 </div>
                             </Link>
                         </ul>
                     </div>
-                    <div onClick={() => setShow(!show)} className="lg:hidden text-[white] text-[24px]">
+                     <div onClick={() => setShow(!show)} className="lg:hidden text-[white] text-[24px]">
                         {show == true ? <RxCross2 /> : <FaBars />}
-                    </div>
+                    </div> 
 
                 </div>
             </div>
