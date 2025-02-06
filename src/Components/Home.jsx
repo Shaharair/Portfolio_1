@@ -28,7 +28,7 @@ const Home = () => {
                                 <input type="text" className="font-Poppins font-semibold lg:text-[36px] text-[20px] text-[white] w-full bg-[black] outline-none" />
                             </ReactTyped>
                         </div>
-                        <p className="font-Poppins font-medium lg:text-[18px] text-[14px] pt-[20px] lg:pt-[30px] text-[white] uppercase">I'm a Bangledeshi based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                        <p className="font-Poppins font-medium lg:text-[18px] text-[14px] pt-[20px] lg:pt-[30px] text-[white] uppercase">I'm a Bangledeshi based web designer & frontend developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                         <div className="lg:mt-[100px] mt-[70px]">
                             <div className="lg:w-[45%] w-[65%] lg:mt-[60px] relative hover:bg-[#FFCC2E] rounded-full duration-500 ease-in-out">
                                 <Link to="/about">
