@@ -7,11 +7,11 @@ import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
 import Portfolio from './Pages/Portfolio'
 import Images from './Pages/Images'
-import FigmaProject from './Pages/FigmaProject'
+import FigmaProject from './Pages/Figma'
 import Landing from './Pages/Landing'
 import Ecommerce from './Pages/Ecommerce'
 import PersonalPortfolio from './Pages/PersonalPortfolio'
-import SliderProject from './Pages/SliderProject'
+import SliderProject from './Pages/Sliders'
 import ApiProject from './Pages/ApiProject'
 import MyPortfolio from './Pages/MyPortfolio'
 import Pages from './Pages/Pages'
@@ -25,12 +25,12 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/blog" element={<Blog/>}></Route>
     <Route path="/portfolio" element={<Portfolio/>}></Route>
     <Route path="/image" element={<Images/>}></Route>
-    <Route path="/figmaproject" element={<FigmaProject/>}></Route>
+    <Route path="/figma" element={<FigmaProject/>}></Route>
     <Route path="/landing" element={<Landing/>}></Route>
     <Route path="/pages" element={<Pages/>}></Route>
     <Route path="/ecommerce" element={<Ecommerce/>}></Route>
     <Route path="/personalportfolio" element={<PersonalPortfolio/>}></Route>
-    <Route path="/sliderproject" element={<SliderProject/>}></Route>
+    <Route path="/sliders" element={<SliderProject/>}></Route>
     <Route path="/api" element={<ApiProject/>}></Route>
     <Route path="/myportfolio" element={<MyPortfolio/>}></Route>
   </Route>

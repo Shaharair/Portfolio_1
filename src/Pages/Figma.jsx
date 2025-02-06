@@ -4,7 +4,7 @@ import { IoDocumentTextSharp } from "react-icons/io5";
 import { FaCode, FaUser } from "react-icons/fa6";
 import { RiExternalLinkLine } from "react-icons/ri";
 
-const FigmaProject = () => {
+const Figma = () => {
     return (
         <section className="bg-[black] lg:py-[60px] py-[30px] pb-[160px] lg:pb-0">
             <div className="container px-3 lg:px-0 mx-auto">
@@ -55,4 +55,4 @@ const FigmaProject = () => {
     )
 }
 
-export default FigmaProject
+export default Figma

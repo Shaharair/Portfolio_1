@@ -9,7 +9,7 @@ import LandJJ from "../assets/port6.jpg"
 import LandHH from "../assets/port7.jpg"
 import Slider from "react-slick";
 
-const SliderProject = () => {
+const Sliders = () => {
 
     var settings = {
         dots: true,
@@ -86,4 +86,4 @@ const SliderProject = () => {
     )
 }
 
-export default SliderProject
+export default Sliders

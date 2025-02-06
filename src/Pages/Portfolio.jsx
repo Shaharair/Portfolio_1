@@ -24,7 +24,7 @@ const Portfolio = () => {
               </Link>
             </div>
             <div className="lg:w-[32%] w-full relative group overflow-hidden mt-[20px] lg:mt-0">
-              <Link to="/figmaproject">
+              <Link to="/figma">
                 <h3 className="font-Poppins font-semibold lg:text-[18px] text-[14px] bg-[#FFCC2E] text-[white] uppercase absolute lg:pt-[110px] pt-[100px] left-[-600px] lg:w-[393px] w-[334px] lg:pl-[120px] pl-[115px] h-full rounded-[30px] group-hover:left-0 duration-500 ease-in-out">Figma Project</h3>
                 <img className="rounded-[30px]" src={PortEE} alt="port" />
               </Link>
@@ -58,7 +58,7 @@ const Portfolio = () => {
           </div>
           <div className="lg:flex items-center justify-between lg:pt-[30px] pt-[20px]">
             <div className="lg:w-[32%] w-full relative group overflow-hidden">
-              <Link to="/sliderproject">
+              <Link to="/sliders">
                 <h3 className="font-Poppins font-semibold lg:text-[18px] text-[14px] bg-[#FFCC2E] text-[white] uppercase absolute lg:pt-[120px] pt-[100px] left-[-600px] lg:w-[393px] w-[334px] lg:pl-[120px] pl-[115px] h-full rounded-[30px] group-hover:left-0 duration-500 ease-in-out">Slider Project</h3>
                 <img className="rounded-[30px]" src={PortBB} alt="port" />
               </Link>
