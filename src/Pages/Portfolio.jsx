@@ -38,7 +38,7 @@ const Portfolio = () => {
           </div>
           <div className="lg:flex items-center justify-between lg:pt-[30px] pt-[20px]">
             <div className="lg:w-[32%] w-full relative group overflow-hidden">
-              <Link to="/multipage">
+              <Link to="/pages">
                 <h3 className="font-Poppins font-semibold lg:text-[18px] text-[14px] bg-[#FFCC2E] text-[white] uppercase absolute lg:pt-[120px] pt-[100px] left-[-600px] lg:w-[393px] w-[334px] lg:pl-[140px] pl-[130px] h-full rounded-[30px] group-hover:left-0 duration-500 ease-in-out">Multi Page</h3>
                 <img className="rounded-[30px]" src={PortXX} alt="port" />
               </Link>

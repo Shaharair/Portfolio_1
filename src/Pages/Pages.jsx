@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
 }
 
 
-const Multipage = () => {
+const Pages = () => {
 
 
     var settings = {
@@ -105,4 +105,4 @@ const Multipage = () => {
     )
 }
 
-export default Multipage
+export default Pages

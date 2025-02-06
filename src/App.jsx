@@ -9,12 +9,12 @@ import Portfolio from './Pages/Portfolio'
 import Images from './Pages/Images'
 import FigmaProject from './Pages/FigmaProject'
 import Landing from './Pages/Landing'
-import Multipage from './Pages/Multipage'
 import Ecommerce from './Pages/Ecommerce'
 import PersonalPortfolio from './Pages/PersonalPortfolio'
 import SliderProject from './Pages/SliderProject'
 import ApiProject from './Pages/ApiProject'
 import MyPortfolio from './Pages/MyPortfolio'
+import Pages from './Pages/Pages'
 
 
 let router = createBrowserRouter(createRoutesFromElements(
@@ -27,7 +27,7 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/image" element={<Images/>}></Route>
     <Route path="/figmaproject" element={<FigmaProject/>}></Route>
     <Route path="/landing" element={<Landing/>}></Route>
-    <Route path="/multipage" element={<Multipage/>}></Route>
+    <Route path="/pages" element={<Pages/>}></Route>
     <Route path="/ecommerce" element={<Ecommerce/>}></Route>
     <Route path="/personalportfolio" element={<PersonalPortfolio/>}></Route>
     <Route path="/sliderproject" element={<SliderProject/>}></Route>
