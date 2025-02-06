@@ -92,7 +92,7 @@ const Multipage = () => {
                                 <img className="lg:mx-[300px] rounded-[20px]" src={LandEE} alt="multi" />
                             </div>
                             <div className="">
-                                <img className="lg:mx-[300px] rounded-[20px]" src={LandWW} alt="multi1" />
+                                <img className="lg:mx-[350px] rounded-[20px]" src={LandWW} alt="multi1" />
                             </div>
                             <div className="">
                                 <img className="lg:mx-[300px] rounded-[20px]" src={LandXX} alt="multi2" />

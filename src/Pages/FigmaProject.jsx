@@ -47,7 +47,7 @@ const FigmaProject = () => {
                         </div>
                     </div>
                     <div className="">
-                        <img className="rounded-[10px] lg:rounded-none" src={PortRR} alt="port" />
+                        <img className="rounded-[10px] lg:rounded-[20px]" src={PortRR} alt="port" />
                     </div>
                 </div>
             </div>

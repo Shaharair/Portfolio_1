@@ -14,7 +14,7 @@ ul {
 .slick-dots {
     position: absolute;
     left: 50%;
-    bottom: 40px;
+    bottom: 30px;
     transform: translateX(-50%);
 }
 

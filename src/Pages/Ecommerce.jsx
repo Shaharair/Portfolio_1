@@ -86,10 +86,10 @@ const Ecommerce = () => {
                     <div className="">
                         <Slider {...settings}>
                             <div className="">
-                                <img className="lg:mx-[300px] rounded-[20px]" src={LandEE} alt="multi3" />
+                                <img className="lg:mx-[255px] rounded-[20px]" src={LandEE} alt="multi3" />
                             </div>
                             <div className="">
-                                <img className="lg:mx-[300px] rounded-[20px]" src={LandWW} alt="multi4" />
+                                <img className="lg:mx-[255px] rounded-[20px]" src={LandWW} alt="multi4" />
                             </div>
                         </Slider>
                     </div>
